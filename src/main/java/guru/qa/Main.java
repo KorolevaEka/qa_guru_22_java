@@ -11,7 +11,7 @@ public class Main {
                 true
         );
 
-        List<String> lectures = new ArrayList<>();
+        List<String> lectures = (List<String>) new ArrayMethod();
         lectures.add("git");
         lectures.add("java");
         lectures.add("files");
